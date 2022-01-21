@@ -1,1 +1,4 @@
 # Bioinformatics-BruteForce-KMP-and-Boyer-Moore-algorithms
+In my program I have implemented BruteForce,KMP and Boyer Moore algorithms. Boyer Moore algorithm make use of 2 different algorithms for preprocessing. One of them is BadCharMatrix function for creating a bad character matrix and one of them is GoodSuffixRule for creating GoodSuffix table.
+KMP method similarly make use of the FailureFunctionKMP for preprocessing a failuare function for given input. User can choose which method for comparison will be used with make file BF,KMP,BM and A. BF will use the BruteForce method, KMP will use KMP method and BM will use Boyer Moore method.
+A will use all the methods and compare their runtime. All will display runtime, how many characters are compared and what is the starting index of the pattern in the given sequence.
